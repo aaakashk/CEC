@@ -7,6 +7,6 @@ int fib(int n) {
 
 int main() {
     int n = 10;
-    std::cout << n << "th fibonacci term is " << fib(n) << "\n";
+    std::cout << "fib(" << n << ") = " << fib(n) << "\n";
     return 0;
 }
